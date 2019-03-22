@@ -1,0 +1,18 @@
+from PySide import QtGui
+Gui.ActiveDocument.ActiveView.setAnimationEnabled(False)
+
+mw=Gui.getMainWindow()
+mdi=mw.findChild(QtGui.QMdiArea)
+view=mdi.activeSubWindow()
+view.showNormal()
+view.resize(320,320)
+
+n = '/home/brad/Desktop/' + Gui.Selection.getSelection()[0].Label 
+
+Gui.Selection.clearSelection()
+Gui.activeDocument().activeView().viewAxonometric()
+Gui.SendMsgToActiveView("ViewFit")
+Gui.activeDocument().activeView().saveImage(n + '.png',320,320,'Current')
+Gui.activeDocument().activeView().saveImage(n + '_w.png',320,320,'White')
+
+Gui.ActiveDocument.ActiveView.setAnimationEnabled(True)
