@@ -13,5 +13,8 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
 
+title: [CNCTorture]
+description: [Test files for CNC/CAM Development, Testing, and Bug Reporting]
 theme: jekyll-theme-slate
-
+show_downloads: ["true"]
+google_analytics: [UA-16164137-3]

@@ -9,3 +9,10 @@ An exterior only profile.  The shape has several features known to cause problem
 * Convex and Concave arcs
 * Interior acute angles
 * Exterior acute angles
+
+## Download
+
+- [STEP](Profile1.step)
+- [FCSTD](Profile1.fcstd)
+
+[Home](https://sliptonic.github.io/cnctorture/) [Up](../list.md)

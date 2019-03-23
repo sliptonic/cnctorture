@@ -13,6 +13,6 @@ Gui.Selection.clearSelection()
 Gui.activeDocument().activeView().viewAxonometric()
 Gui.SendMsgToActiveView("ViewFit")
 Gui.activeDocument().activeView().saveImage(n + '.png',320,320,'Current')
-Gui.activeDocument().activeView().saveImage(n + '_w.png',320,320,'White')
+Gui.activeDocument().activeView().saveImage(n + '_t.png',320,320,'Transparent')
 
 Gui.ActiveDocument.ActiveView.setAnimationEnabled(True)
