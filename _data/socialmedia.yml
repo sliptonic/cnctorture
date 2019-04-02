@@ -1,0 +1,5 @@
+- name: GitHub
+  url: https://github.com/sliptonic/cnctorture
+  class: fa fa-github-square
+  title: Code repository
+

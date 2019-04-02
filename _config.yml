@@ -1,23 +1,96 @@
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - CONTRIBUTING.md
-  - README.md
-  - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - ISSUE_TEMPLATE.md
-  - PULL_REQUEST_TEMPLATE.md
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+#permalink:           pretty
+permalink: /blog/:year/:month/:day/:title/
+relative_permalinks: false
+encoding: utf-8
 
+# Setup
+title: CNCTorture
+tagline:             Sample files for CAM Development, Testing, and Bug Reporting
+description:         Sample files for CAM Development, Testing, and Bug Reporting
+url: https://sliptonic.github.io/cnctorture
 baseurl: "/cnctorture"
-title: [CNCTorture]
-description: [Test Files for CNC/CAM Development Testing and Bug Reporting]
-theme: jekyll-theme-slate
-#remote-theme: "mmistakes/minimal-mistakes@4.15.2" 
-show_downloads: ["true"]
+urlimg: https://sliptonic.github.io/cnctorture/images/
+urlcatalog: https://sliptonic.github.io/cnctorture/catalog
+## If you do not have custom domain, comment top three lines, uncomment three lines below and replace dyndna with your github userid and lanyon-plus with your project name. Also, rename CNAME file to CNAME.sample
+#url: https://dyndna.github.io/lanyon-plus
+#baseurl: "/lanyon-plus"
+#urlimg: https://dyndna.github.io/lanyon-plus/images/
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+paginate: 5
+paginate_path: "/blog/page:num"
+excerpt_separator: <!--more-->
+default_bg: sitebg.jpg
+default_logo: sitelogo.png
+safe: false
+#timezone:    America/Chicago
+future:      true
+
+
+## code highlight options
+syntax_highlighter: rouge
+input: GFM
+
+gems:
+  - github-pages
+  - font-awesome-sass
+  - jekyll-redirect-from
+  - jekyll-mentions
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
+
+# About/contact
+author:
+  name:             Sliptonic
+  url:               https://twitter.com/sliptonic
+  avatar:         foo.png
+  #email:
+
+# Owner/author information
+owner:
+  name:          Sliptonic
+  avatar:         foo.png
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description:
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        sliptonic
+  github:         sliptonic
+  linkedin:       https://www.linkedin.com/in/sliptonic
+
+## sidebar links:
+# For external links add external: true
+links:
+  - title: <i class="iconside iconm-home"></i> Home
+    url: /
+  - title: <i class="iconside iconm-user"></i> About
+    url: /about/
+  - title: <i class="iconside iconm-quill"></i> Blog
+    url: /blog/
+  - title: <i class="fa fa-tags"></i> Tags
+    url: /tags/
+  - title: <i class="fa fa-archive"></i> Archive
+    url: /archive/
+  - title: <i class="iconside iconm-envelop"></i> Contact
+    url: /contact/
+  - title: <i class="iconside iconm-twitter"></i> Twitter
+    url: https://twitter.com/sliptonic
+    external: true
+  - title: <i class="iconside iconm-feed2"></i> Feed
+    url: /feed.xml
+
+# Google Custom Search:
+google_search: 002119957996217558684:n5_kdbiah48 
+
+# Analytics and webmaster tools stuff goes here
 google_analytics: [UA-16164137-3]
 
+## END ##
