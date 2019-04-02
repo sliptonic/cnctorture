@@ -77,8 +77,10 @@ links:
     url: /blog/
   - title: <i class="fa fa-tags"></i> Tags
     url: /tags/
-  - title: <i class="fa fa-archive"></i> Archive
-    url: /archive/
+  - title: <i class="fa fa-tags"></i> 3D
+    url: /3DShapes/
+  - title: <i class="fa fa-plus-circle"></i> Submissions
+    url: /submissions/
   - title: <i class="iconside iconm-envelop"></i> Contact
     url: /contact/
   - title: <i class="iconside iconm-twitter"></i> Twitter

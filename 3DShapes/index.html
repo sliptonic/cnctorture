@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Blog @ example.com
+title: 3D Shapes 
 description: "Blogging on ...."
 ---
 
 <div class="posts">
   {% for post in paginator.posts %}
-     {% if post.tags contains '3D' %}
-    YEP
-    {% endif %} 
-    <div class="post">
+    <!-- {% if post.tags contains '3D' %} -->
+    <!-- YEP -->
+    <!-- {% endif %} -->
+  <div class="post">
     <h1 class="post-title">
       <a href="{{ site.url }}{{ post.url }}">
         {{ post.title }}

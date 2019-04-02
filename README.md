@@ -13,5 +13,5 @@ Test shapes with difficult geometry. Bsplines, ellipses, etc.
 #### Multi-object
 Project files meant to test higher level CAM operations like part nesting, job layout, work-coordinate systems, etc
 
-#### [How to Contribute to this catalog](docs/submissions.md)
+#### [How to Contribute to this catalog](pages/submissions.md)
 
