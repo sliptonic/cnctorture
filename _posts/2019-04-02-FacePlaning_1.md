@@ -23,11 +23,14 @@ summaryfeed: false
 {:.text-center img}
 ![FacePlaning_1]({{ site.urlcatalog }}/FacePlaning_1/FacePlaning_1_t.png "FacePlaning_1")
 
+<!--more-->
+
+###Features
+
 * Ovoid Faces
 * Face with overhang
 * Face with hole
 
-<!--more-->
 
 ### Download
 - [STEP]({{site.urlcatalog}}/FacePlaning_1/FacePlaning_1.step)

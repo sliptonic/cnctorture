@@ -23,9 +23,9 @@ summaryfeed: false
 ---
 {:.text-center img}
 ![ConeNoBase]({{ site.urlcatalog }}/ConeNoBase/ConeNoBase_t.png "ConeNoBase")
-Adaptive clearing and algorithms that rely on detecting a floor (eg Dropcutter) should test using this shape as well.
-
 <!--more-->
+
+### Features
 
 ### Download
 - [STEP]({{site.urlcatalog}}/ConeNoBase/ConeNoBase.step)
@@ -36,6 +36,7 @@ Adaptive clearing and algorithms that rely on detecting a floor (eg Dropcutter) 
 ### Example
 
 ### Common Problems
+Adaptive clearing and algorithms that rely on detecting a floor (eg Dropcutter) should test using this shape as well.
 
 
 

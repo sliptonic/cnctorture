@@ -1,0 +1,56 @@
+---
+layout: default
+permalink: /2Dshapes/
+title: 2D Shapes 
+published: true
+description: "2D Shapes"
+comments: false
+mathjax: false
+gistembed: true
+noindex: false
+sitemap:
+    priority: 0.5
+    changefreq: 'monthly'
+    lastmod: 2016-02-13
+tags:
+---
+## 2D Shapes
+The shapes provided here are 3D representations of parts that could be entirely represented in 2D formats like DXF or SVG.
+They represent the kind of work typically done by laser cutters, waterjet, plasma, drag knife, or similar machines. 
+There are no partial-depth features.
+
+<div class="posts">
+   {% for post in site.posts %}
+     {% if post.tags contains '2D' %}
+   <div class="post">
+     <h1 class="post-title">
+       <a href="{{ site.url }}{{ post.url }}">
+         {{ post.title }}
+       </a>
+     </h1>
+
+  {% if post.description.size > 140 %}{{ post.description | markdownify | remove: '<p>' | remove: '</p>' }}{% else %}{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}
+
+      <!-- <a href="{{ site.url }}{{ post.url }}" title="Read more"><strong>Read more...</strong></a> -->
+ </div>
+ {% unless forloop.last %}<hr class="transp">{% endunless %}
+     {% endif %}
+ {% endfor %}
+</div>
+
+ <div class="pagination">
+   {% if paginator.next_page %}
+     <a class="pagination-item older" href="{{ site.url }}/blog/page{{paginator.next_page}}">Older</a>
+   {% else %}
+     <span class="pagination-item older">Older</span>
+   {% endif %}
+   {% if paginator.previous_page %}
+     {% if paginator.page == 2 %}
+       <a class="pagination-item newer" href="{{ site.url }}/blog/">Newer</a>
+     {% else %}
+       <a class="pagination-item newer" href="{{ site.url }}/blog/page{{paginator.previous_page}}">Newer</a>
+     {% endif %}
+   {% else %}
+     <span class="pagination-item newer">Newer</span>
+   {% endif %}
+ </div>

@@ -2,7 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 #permalink:           pretty
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:title
 relative_permalinks: false
 encoding: utf-8
 
@@ -77,8 +77,12 @@ links:
     url: /blog/
   - title: <i class="fa fa-tags"></i> Tags
     url: /tags/
+  - title: <i class="fa fa-tags"></i> 2D
+    url: /2Dshapes/
+  - title: <i class="fa fa-tags"></i> 2.5D
+    url: /25Dshapes/
   - title: <i class="fa fa-tags"></i> 3D
-    url: /3DShapes/
+    url: /3Dshapes/
   - title: <i class="fa fa-plus-circle"></i> Submissions
     url: /submissions/
   - title: <i class="iconside iconm-envelop"></i> Contact

@@ -24,12 +24,12 @@ summaryfeed: false
 {:.text-center img}
 ![EdgeFeature_0]({{ site.urlcatalog }}/EdgeFeature_0/EdgeFeature_0_t.png "EdgeFeature_0")
 
+<!--more-->
 Some edge features must be cleared by reducing the material to chips with a _pocketing_ style operation.  If these features represent a full-depth concavity, isolating and selecting them from the rest of the model is required.  This part gives a selection of edge features that the user might want to machine in isolation without doing a full-part profile.
 - concave features
 - convex features
 - arc features
 - corner features
-<!--more-->
 
 ![EdgeFeature_0]({{ site.urlcatalog }}/EdgeFeature_0/EdgeFeature_0_highlight_t.png "EdgeFeature_0")
 
