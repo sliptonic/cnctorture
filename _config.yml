@@ -10,14 +10,10 @@ encoding: utf-8
 title: CNCTorture
 tagline:             Sample files for CAM Development, Testing, and Bug Reporting
 description:         Sample files for CAM Development, Testing, and Bug Reporting
-url: https://sliptonic.github.io/cnctorture
-baseurl: "/cnctorture"
-urlimg: https://sliptonic.github.io/cnctorture/images/
-urlcatalog: https://sliptonic.github.io/cnctorture/catalog
-## If you do not have custom domain, comment top three lines, uncomment three lines below and replace dyndna with your github userid and lanyon-plus with your project name. Also, rename CNAME file to CNAME.sample
-#url: https://dyndna.github.io/lanyon-plus
-#baseurl: "/lanyon-plus"
-#urlimg: https://dyndna.github.io/lanyon-plus/images/
+url: https://cnctorture.xyz
+baseurl: ""
+urlimg: https://cnctorture.xyz/images/
+urlcatalog: https://cnctorture.xyz/catalog
 markdown: kramdown
 kramdown:
   math_engine: mathjax
