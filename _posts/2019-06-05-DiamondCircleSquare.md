@@ -28,7 +28,7 @@ summaryfeed: false
 
 ### Download
 - [STEP]({{site.urlcatalog}}/DiamondCircleSquare/DiamondCircleSquare.step)
-- [FCSTD]({{site.urlcatalog}}/DiamondCircleSquare/DiamondCircleSquare.fcstd)
+- [FCSTD]({{site.urlcatalog}}/DiamondCircleSquare/DiamondCircleSquare.FCStd)
 
 ### Operations
 
