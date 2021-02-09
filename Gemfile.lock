@@ -204,6 +204,7 @@ DEPENDENCIES
   execjs (>= 2.6.0)
   font-awesome-sass (>= 4.6.2)
   github-pages (>= 93)
+  jekyll (~> 3)
   jekyll-compose (>= 0.4.1)
   jekyll-mentions (>= 1.1.3)
   jekyll-redirect-from (>= 0.11.0)
