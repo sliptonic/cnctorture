@@ -21,6 +21,6 @@ Standard test files are useful for:
 This collection is a work-in-progress.  Contributions and improvements are always welcome.
 The site is generated from a Github repo at: 
 
-https://github.com/sliptonic/cnctorture
+<https://github.com/sliptonic/cnctorture>
 
 
